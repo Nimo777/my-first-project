@@ -1,0 +1,99 @@
+/* تنسيق عام للصفحة */
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    margin: 0px;
+    padding: 0px;
+   background-image: linear-gradient(to right,dodgerblue,transparent);
+    color:black;
+}
+
+/* رأس الصفحة */
+header {
+    background-color:dodgerblue;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0px;
+}
+
+/* قائمة التنقل */
+nav {
+    background-color:black;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #ffcc00;
+}
+
+/* الأقسام */
+section {
+    padding: 40px 20px;
+    background-color: white;
+    margin: 20px auto;
+    max-width: 1000px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    color: dodgerblue;
+    margin-bottom: 20px;
+}
+
+section p {
+    margin-bottom: 20px;
+}
+
+/* تنسيق الصور */
+section img {
+    margin: 10px;
+    border-radius: 6px;
+}
+
+/* تنسيق الفيديو */
+iframe {
+    margin-top: 15px;
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+/* النصائح */
+section ul {
+    padding-left: 20px;
+}
+
+section ul li {
+    margin-bottom: 10px;
+}
+
+/* الفوتر */
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}
